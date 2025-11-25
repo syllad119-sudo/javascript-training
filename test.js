@@ -29,20 +29,28 @@
 
 // lastName "muche"; Erreur
 
-let age=30;
+// let age=30;
 
-console.log (age)
+// console.log (age)
 
-if (age>30) 
-{console.log("Vous pouvez conduire");}
+// if (age>30) 
+// {console.log("Vous pouvez conduire");}
 
-else if (age==30)
-{console.log("Vous avez 30 ans");}
+// else if (age==30)
+// {console.log("Vous avez 30 ans");}
 
 
-else (age<30)
-{console.log("Vous devez attendre ");}
+// else (age<30)
+// {console.log("Vous devez attendre ");}
 
+const nameshop = "PixelBay"
+let stockshop= "500"
+const pu =15
+
+ { console.log("nameshop")}
+{ console.log("stockshop")}
+
+let nombrestock=
 
 
 
