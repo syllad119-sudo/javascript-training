@@ -45,12 +45,14 @@
 
 const nameshop = "PixelBay"
 let stockshop= "500"
-const pu =15
+let pu = "15"
+console.log("Le magasin Pixelbay")
+console.log("le stock intial est de"+ stockshop)
+let newstock= stockshop * 0.3
+console.log("apres une vente de 30% le nouveau stock est de" + newstock)
+let ca = pu * newstock
+console.log ("le chiffre d affaire total de la vente est de euros"+ca)
 
- { console.log("nameshop")}
-{ console.log("stockshop")}
-
-let nombrestock=
 
 
 
