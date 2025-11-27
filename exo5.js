@@ -1,6 +1,9 @@
-let jeuxenstock=5
-let stockcible=100
+let nbredejeu=0;
+let nbrelivraison=0;
 
-while (jeuxenstock < stockcible) {
-    console.log ("le stock actuel est de " + jeuxenstock + " jeux")
+while (nbredejeu <100) {
+    nbrelivraison++;
+    nbredejeu += 5;
 }
+console.log("le nombre de livraison est de "+ nbrelivraison);
+
