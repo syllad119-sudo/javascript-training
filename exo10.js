@@ -1,12 +1,18 @@
-const inventaire = [manettes,consoles, accessoires, casques, chargeurs]
+const inventaire = ["manettes","consoles", "accessoires", "casques"," chargeurs"]
 
-for (let i = 0; i < inventaire.length; i++) 
+
 
 inventaire.push( "cartes memoires")
-inventaire.push ("jeux")
-invventaire.pop()
-{
-    console.log("article:" + inventaire[i]); i++
-}
+ console.log (inventaire)
+ inventaire.push("jeux")
+ console.log (inventaire)
+ inventaire.shift()
+    console.log (inventaire);
 
+    for (let i = 0; i < inventaire.length; i++) {
+        console.log("articles :" + inventaire[i]);
+    }
+
+
+  
 
