@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo16</title>
+    <style>
+    /*CSS si nécessaire*/
+    </style>
+</head>
+<body>
+    <h1>Exo16</h1>
+    
+    <script>
+const CAPACITE_DE_LETAGERE = 10;
+let jeuxEnStock = Number(prompt("Combien de jeux vidéo avez-vous reçus en stock aujourd'hui ?"));
+
+let etageresCompletes = Math.floor(jeuxEnStock / CAPACITE_DE_LETAGERE);
+// La fonction Math.floor(x) renvoie le plus grand entier qui est inférieur ou égal à un nombre x
+let jeuxRestants = jeuxEnStock % CAPACITE_DE_LETAGERE;
+
+if (etageresCompletes > 0) {
+    console.log("Vous avez complètement rempli " + etageresCompletes + " étagères de jeux vidéo.");
+} else {
+    console.log("Vous n'avez pas rempli une seule étagère.");
+}
+
+console.log("Il reste " + jeuxRestants + " jeux vidéo après avoir organisé les étagères.");
+        // Votre script JS ici
+    </script>
+</body>
+</html>
