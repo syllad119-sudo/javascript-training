@@ -42,3 +42,11 @@ let collection = [
 // }
 
 // Tests
+ const fruits = [ "pomme","poire","banane","cerise","ananas"]
+ const prix = [200,300,400,500,600]
+ const resultat = prix.filter (
+    function (e) {
+        return e > 300
+    }
+ )
+ console.log (resultat)
