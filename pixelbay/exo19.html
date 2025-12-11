@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Compteur de Likes chez PixelBay</title>
+</head>
+<body>
+    <button id="button"><span id="compteur">👍 Like </span></button>
+
+    <script>
+    const btn = document.getElementById ("button")
+    const compt= document.getElementById ("compteur")
+        // La fonction addOne sera implémentée ici
+        // On initialise le nombre de likes
+        let like = 0;
+
+// On ajoute un écouteur d'évènement sur le bouton
+button.addEventListener('click', function() {
+    like++;                     // On incrémente
+    if (like <=1 ) {compteur.textContent = like + "👍 like"}
+    else {compteur.textContent = like + "👍 likes" }; // On met à jour l'affichage
+});
+    </script>
+</body>
+</html>
